@@ -1,0 +1,23 @@
+INVITACIÓN INFANTIL — ISABELLA
+
+ARCHIVOS
+- index.html: diseño y textos editables.
+- fondo-papel.jpg: textura de papel y adornos florales de los bordes.
+- lazo-acuarela.png: lazo rosa decorativo.
+- foto-bebe.jpg: tu fotografía (debes añadirla tú).
+
+CÓMO COLOCAR LA FOTO
+1. Copia la fotografía de la bebé en la misma carpeta donde está index.html.
+2. Renómbrala exactamente: foto-bebe.jpg
+3. Abre index.html en tu navegador. Si la web ya está publicada, sube los tres archivos a la misma carpeta raíz del sitio.
+
+Si tu imagen tiene otro nombre o formato, abre index.html y modifica esta línea:
+    src="./foto-bebe.jpg"
+Por ejemplo: src="./isabella.png"
+
+TEXTOS EDITABLES
+Abre index.html y busca las secciones class="nombre", class="subtitulo", class="detalles" y class="despedida".
+Los estilos, los colores y las posiciones están en el bloque <style> del mismo archivo.
+
+NOTA
+Las tipografías decorativas se cargan desde Google Fonts cuando el dispositivo tiene Internet. Sin Internet, el diseño usa fuentes alternativas del sistema.

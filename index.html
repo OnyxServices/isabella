@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación | Isabella cumple 1 añito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="pantalla-carga" class="pantalla-carga">
+    <!-- En la sección de pantalla de carga -->
+<div class="carga-contenido">
+    <div class="corazon-carga">♥</div> <!-- Cambiado aquí -->
+    <p id="mensaje-carga">Preparando invitación...</p>
+    <button id="btn-abrir" class="btn-abrir" style="display: none;">Abrir</button>
+</div>
+  </div>
+
+  <main class="invitacion" aria-label="Invitación al primer cumpleaños de Isabella">
+    <div class="marco-foto sin-foto" id="marcoFoto">
+      <img id="fotoBebe" src="foto-bebe.jpg" alt="Fotografía de Isabella">
+      <div class="aviso-foto" aria-hidden="true">Coloca tu fotografía<br>en la carpeta raíz<br>con el nombre<br><strong>foto-bebe.jpg</strong></div>
+    </div>
+
+    <img class="lazo" src="./lazo-acuarela.png" alt="" aria-hidden="true">
+    <!-- Busca las líneas de texto y agrégales la clase "fade-in-up" -->
+<h1 class="nombre fade-in-up">Sara Isabella</h1>
+<h2 class="subtitulo fade-in-up">Mi primer añito</h2>
+<p class="detalles fade-in-up">
+  <span>¡Te invitamos al primer cumpleaños de Isa!</span>
+  <span>Celebramos el Domingo 15 de Marzo a las 12 pm</span>
+  <span>en Calle Cualquiera 123, Cualquier Lugar.</span>
+  <span>| Confirmar asistencia al 1234-5678 |</span>
+</p>
+<p class="despedida fade-in-up">¡Te esperamos!</p>
+  </main>
+<audio id="musica-fondo" loop>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+  <script src="script.js"></script>
+</body>
+</html>
